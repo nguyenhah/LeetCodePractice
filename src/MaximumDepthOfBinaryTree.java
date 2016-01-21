@@ -28,7 +28,7 @@ public class MaximumDepthOfBinaryTree {
         System.out.println(maxDepth(a));
     }
 
-    public static class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
